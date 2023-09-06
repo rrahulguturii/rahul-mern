@@ -4,100 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <style>
-        .heading {
-            color: blue;
-            font-weight: bold;
-            font-size: 40px;
-        }
-
-        .table {
-            margin-left: 180px;
-        }
-
-        .declaration-label {
-            white-space: nowrap; 
-        }
-
-        .table input[type="text"],
-        .table input[type="email"],
-        .table input[type="password"],
-        .table input[type="number"],
-        .table textarea,
-        .table select {
-            width: 99%; 
-        }
-
-        .side-heading {
-            font-weight: bold;
-        }
-
-    </style>
 </head>
 <body>
+    <center>
     <div>
-        <h1 class="heading"><center>Registration form</center></h1>
+        <h1 style="color: blue; font-weight: bold; font-size: 40px;"><center>Registration form</center></h1>
     </div>
 
     <div class="table">
-    <table border="1" bordercolor="black" height="100" width="80%">
+    <table border="1" bordercolor="black" height="100" width="60%">
         <tr>
-            <td class="side-heading"><center>First Name</center></td>
-            <td><input type="text" cols="100"/></td>
+            <td class="side-heading" style="width: 30%;"><center>First Name</center></td>
+            <td><input type="text" style="width: 99%;" cols="100"/></td>
         </tr>
 
         <tr>
             <td class="side-heading"><center>Last Name</center></td>
-            <td><input type="text"/></td>
+            <td><input type="text" style="width: 99%;"/></td>
         </tr>
 
         <tr>
             <td class="side-heading"><center>Email</center></td>
-            <td><input type="email"/></td>
+            <td><input type="email" style="width: 99%;"/></td>
         </tr>
 
         <tr>
             <td class="side-heading"><center>Password</center></td>
-            <td><input type="password"/></td>
+            <td><input type="password" style="width: 99%;"/></td>
         </tr>
 
         <tr>
             <td class="side-heading"><center>Re-enter Password</center></td>
-            <td><input type="password"/></td>
+            <td><input type="password" style="width: 99%;"/></td>
         </tr>
 
         <tr>
             <td class="side-heading"><center>Gender:</center></td>
-                <td>
-                    <input type="radio" name="gender" /> Male <hr>
-                    <input type="radio" name="gender" /> Female
-                </td>
+            <td>
+                <input type="radio" name="gender" /> Male <br>
+                <input type="radio" name="gender" /> Female
+            </td>
         </tr>
 
         <tr>
             <td class="side-heading"><center>Age:</center></td>
-            <td><input type="number"/></td>
+            <td><input type="number" style="width: 99%;"/></td>
         </tr>
 
         <tr>
             <td class="side-heading"><center>Phone Number</center></td>
-            <td><input type="number"/></td>
+            <td><input type="number" style="width: 99%;"/></td>
         </tr>
 
         <tr height="105">
             <td class="side-heading"><center>Address</center></td>
-            <td><textarea rows="6" cols="100"></textarea></td>
+            <td><textarea rows="6" cols="100" style="width: 99%;"></textarea></td>
         </tr>
 
         <tr>
             <td class="side-heading"><center>State</center></td>
-            <td><input type="text"/></td>
+            <td><input type="text" style="width: 99%;"/></td>
         </tr>
 
         <tr>
             <td class="side-heading"><center>Country</center></td>
             <td>
-                <select>
+                <select style="width: 100%;">
                     <option>Choose your country</option>
                     <option>India</option>
                     <option>US</option>
@@ -120,15 +92,10 @@
         </tr>
 
         <tr>
-            <td width="400">
-                <lable class="declaration-label">
-                    <input type="checkbox" /> Hereby I declare all the given details are true
-                </lable>
-            </td>
+            <td colspan="2"><input type="checkbox" class="inline" />Hereby I declare all the given details are true</td>
         </tr>
-
         <tr>
-            <td>Log in to <a href="#">Ethnus</a>website</td>
+           <td style="text-align:right;" colspan="2">Log in to <a href="http://www.ethnus.com">Ethnus </a>website</td> 
         </tr>
     </table>
 </div>
@@ -137,5 +104,6 @@
 <div class="button">
     <center><input type="submit" value="Register" /></center>
 </div>
+</center>
 </body>
 </html>
