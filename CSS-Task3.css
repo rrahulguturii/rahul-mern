@@ -1,0 +1,27 @@
+.col-name {
+    color: white;
+    background-color: rgb(76, 166, 114);
+    text-align: left;
+}
+
+.grey-col {
+    background-color: lightgrey;
+    color: black;
+}
+
+.customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+.customers td1 {
+    border: 1px solid lightgrey; 
+    padding: 8px; 
+}
+
+.customers th {
+    border: none;
+    background-color: rgb(76, 166, 114);
+    color: white;
+    padding: 8px;
+}
