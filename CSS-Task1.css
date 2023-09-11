@@ -16,3 +16,36 @@ table {
 .side-heading {
     font-weight: bold;
 }
+
+#item2 td{
+    border: 2px solid rgb(175, 179, 61);
+}
+
+td#s1 {
+    border-radius: 4px;
+}
+td#s2 {
+    border-radius: 6px;
+}
+td#s3 {
+    border-radius: 10px;
+}
+td#s4 {
+    border-radius: 6px;
+}
+td#s5 {
+    border-radius: 2px;
+}
+td#s6 {
+    border-radius: 10px;
+}
+td#s7 {
+    border-radius: 50%;
+}
+td#s8 {
+    border-radius: 3px;
+}
+td#s9 {
+    border-top-right-radius: 12px;
+    border-bottom-left-radius: 15px;
+}
